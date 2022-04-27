@@ -1,0 +1,36 @@
+body{
+background-image: url("J.jpg"); 
+background-repeat: no-repeat;  
+background-size: cover;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly; 
+}
+.games img{
+padding: 20px;
+}
+h1{
+margin-left: 600px ;    
+color:white   ;
+font-family: papyrus;
+}
+.games:hover img{
+opacity: 0.5;
+transform: scale(1.1);
+}
+.games{
+position: relative;    
+}
+.games p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);    
+opacity: 0;
+}
+.games:hover p{
+opacity: 1;    
+}
